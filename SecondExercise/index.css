@@ -1,0 +1,24 @@
+body {
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#warningTxt {
+  display: none;
+}
+#inputInfo {
+  text-align: right;
+  font-weight: 600;
+}
+#inputLength {
+  color: blue;
+}
+input[type="text"]:focus {
+  outline: none;
+}

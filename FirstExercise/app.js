@@ -1,4 +1,3 @@
-// Get the input box
 let timeout = null;
 
 document.getElementById("myInput").addEventListener("keyup", function (e) {
